@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #323233;
+    color: #D6D6D6;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    width: 100%;
+    opacity: 95%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    z-index: 99999;
+}
+
+.logo img{
+    width: 16px;
+    margin-right: 12px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #D6D6D6;
+    margin: 20px 25px;
+    font-size: 13px;
+}
+
+.search-icon {
+    width: 20px;
+    margin-bottom: -5px;
+    margin-left: 10px;
+}
+
+.bag-icon {
+    width: 18px;
+    margin-left: 30px;
+    margin-bottom: -2px;
+}
+
+.first-slider {
+    position: relative;
+    margin-top: 50px;
+}
+
+.first-slider img{
+    z-index: -1;
+}
+.first-slider-links {
+    position: absolute;
+    top: 29%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+.first-slider-links a {
+    margin: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1472D0;
+    text-align: center;
+}
+
+.first-slider-links a:hover {
+    text-decoration: underline;
+}
+
+.second-slider {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.second-slider-links  {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.second-slider-links a {
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1472D0;
+    text-align: center;
+}
+
+.second-slider-links a:hover {
+    text-decoration: underline;
+}
+
+.third-slider {
+    position: relative;
+}
+
+.third-slider-links  {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.third-slider-links a {
+    margin: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1472D0;
+    text-align: center;
+}
+
+.third-slider-links a:hover {
+    text-decoration: underline;
+}
